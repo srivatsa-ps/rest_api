@@ -1,0 +1,13 @@
+get http://127.0.0.1:3000/subscribers
+
+###
+get http://127.0.0.1:3000/subscribers/15
+
+###
+post http://127.0.0.1:3000/subscribers/
+Content-Type: application/json
+{
+    "name":"vatsa",
+    "dob":"2003-03-27",
+    "bikename":"classic 500"
+}
